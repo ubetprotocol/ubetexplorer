@@ -139,10 +139,7 @@ class Index extends Component {
 								<ul className="nav nav-tabs">
 									<li className="active"><a href="#overview" data-toggle="tab" className="oveTex">Last 10,000 Transactions</a></li>
 									<li style={{float: 'right',lineHeight: '0',fontWeight: 'bold'}}>
-											<span style={{color: '#1e65ae', display: 'block',lineHeight: '1.6',textAlign: 'right', fontWeight:'normal'}}>Premined: 250,000,000 Ubets </span>
-										{(this.state.supply) ?
-											<span style={{color: '#1e65ae',lineHeight: '1',fontWeight:'normal'}}>Circulating supply: {this.state.supply} Ubets <a href="https://history.bitcoiin.com/api/supply" target="_blank" style={{float: 'right', fontSize: '9px', color: '#444', marginLeft: '5px'}}>API <i className="fa fa-external-link"></i> </a></span> : null
-										}
+										<span style={{color: '#1e65ae', display: 'block',lineHeight: '1.6',textAlign: 'right', fontWeight:'normal'}}>Premined: 250,000,000 Ubets </span>	
 									</li>
 								</ul>
 								<div className="tab-content">
