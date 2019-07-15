@@ -139,7 +139,7 @@ class Index extends Component {
 								<ul className="nav nav-tabs">
 									<li className="active"><a href="#overview" data-toggle="tab" className="oveTex">Last 10,000 Transactions</a></li>
 									<li style={{float: 'right',lineHeight: '0',fontWeight: 'bold'}}>
-										<span style={{color: '#1e65ae', display: 'block',lineHeight: '1.6',textAlign: 'right', fontWeight:'normal'}}>Premined: 250,000,000 Ubets </span>	
+										<span style={{color: '#2c2e53', display: 'block',lineHeight: '1.6',textAlign: 'right', fontWeight:'normal'}}>Premined: 250,000,000 Ubets </span>	
 									</li>
 								</ul>
 								<div className="tab-content">

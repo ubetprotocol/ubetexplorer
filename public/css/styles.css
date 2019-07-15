@@ -51,9 +51,9 @@ body{
   border-radius: 0px;
   height: 85px;
   width: 100%;
-  background: -moz-linear-gradient(left, #003a75 0%, #258dc8 100%);
-  background: -webkit-linear-gradient(left, #003a75 0%,#258dc8 100%);
-  background: linear-gradient(to right, #003a75 0%,#258dc8 100%);
+  background: -moz-linear-gradient(left, #2c2e53 0%, #2c2e53 100%);
+  background: -webkit-linear-gradient(left, #2c2e53 0%,#2c2e53 100%);
+  background: linear-gradient(to right, #2c2e53 0%,#2c2e53 100%);
   border-bottom: 5px solid #ffb100;
 
 }
@@ -128,11 +128,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #3498db;
+  color: #2c2e53;
 }
 
 a:hover {
-  color: #3498db !important;
+  color: #2c2e53 !important;
   text-decoration: underline;
 }
 
@@ -684,7 +684,7 @@ footer{
     margin-top: 50px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background: #003a75;
+    background: #2c2e53;
     position: fixed;
     /*height: 75px;*/
 }
@@ -749,7 +749,7 @@ th.dt-center, td.dt-center { text-align: center; text-overflow:ellipsis}
 }
 .border{
   border-radius: 0;
-  background-color: #3498db;
+  background-color: #3f4275;
   color: white;
 }
 
@@ -786,7 +786,7 @@ th.dt-center, td.dt-center { text-align: center; text-overflow:ellipsis}
   .nav-tabs > li.active > a:hover,
   .nav-tabs > li.active > a:focus {
   color: white !important;
-  background-color: #3498db;
+  background-color: #2c2e53;
   border: none;
   border-bottom-color: transparent;
   cursor: default;
@@ -978,7 +978,7 @@ span.label {
   text-decoration: none;
 }
 .box p{
-  background-color: #3498db;
+  background-color: #2c2e53;
   text-align: center;
   color:#fff;
   padding:10px;
@@ -1009,4 +1009,7 @@ span.label {
   background: transparent;
   border:0px solid transparent;
 
+}
+.pagination>li>a, .pagination>li>span {
+  color: #2c2e53;
 }
