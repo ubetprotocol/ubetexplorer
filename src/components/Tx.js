@@ -114,7 +114,7 @@ class Tx extends Component {
 												<div className="col-sm-3 ToTex">To :</div>
 												<div className="col-sm-9" id="to"><Link className="td-address" to={"/address/"+transaction.to}>{transaction.to}</Link></div><br /><br />
 												<div className="col-sm-3 ValTex">Value :</div>
-												<div className="col-sm-9" id="value">{transaction.value / 10**18} B2G</div><br /><br />
+												<div className="col-sm-9" id="value">{transaction.value / 10**18} Ubets</div><br /><br />
 												<div className="col-sm-3 GasLTex">Gas Limit :</div>
 												<div className="col-sm-9" id="gaslimit">{transaction.gas}</div><br /><br />
 												{/*<div className="col-sm-3 GaUbyTex">Gas Used By :</div>

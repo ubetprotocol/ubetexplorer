@@ -26,7 +26,7 @@ class App extends Component {
 						<div className="row">
 							<div className="col-md-12">
 								<div  className="color pull-right">
-								&copy;2018 B2G Explorer, All Rights Reserved.
+								&copy;2019 Ubets Explorer, All Rights Reserved.
 								</div>
 							</div>
 						</div>

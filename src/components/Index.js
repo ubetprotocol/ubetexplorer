@@ -79,7 +79,7 @@ class Index extends Component {
 				<td><span rel="tooltip" title="">{new Date(ob.timestamp * 1000).toGMTString()}</span></td>
 				<td><Link className="td-address" to={"/address/"+ob.from}>{ob.from}</Link></td>
 				<td><Link className="td-address" to={"/address/"+ob.to}>{ob.to}</Link></td>
-				<td>{(new BigNumber(ob.value)).div(1e18).toString(10) + " B2G"}</td>
+				<td>{(new BigNumber(ob.value)).div(1e18).toString(10) + " Ubets"}</td>
 				{/*<td><font color="gray" size="1">0<b>.</b>000042</font></td>*/}
 			</tr>
 			)): <tr><td colSpan="7">No Transactions to display</td></tr>
@@ -139,9 +139,9 @@ class Index extends Component {
 								<ul className="nav nav-tabs">
 									<li className="active"><a href="#overview" data-toggle="tab" className="oveTex">Last 10,000 Transactions</a></li>
 									<li style={{float: 'right',lineHeight: '0',fontWeight: 'bold'}}>
-											<span style={{color: '#1e65ae', display: 'block',lineHeight: '1.6',textAlign: 'right', fontWeight:'normal'}}>Premined: 50,000,000 B2G </span>
+											<span style={{color: '#1e65ae', display: 'block',lineHeight: '1.6',textAlign: 'right', fontWeight:'normal'}}>Premined: 250,000,000 Ubets </span>
 										{(this.state.supply) ?
-											<span style={{color: '#1e65ae',lineHeight: '1',fontWeight:'normal'}}>Circulating supply: {this.state.supply} B2G <a href="https://history.bitcoiin.com/api/supply" target="_blank" style={{float: 'right', fontSize: '9px', color: '#444', marginLeft: '5px'}}>API <i className="fa fa-external-link"></i> </a></span> : null
+											<span style={{color: '#1e65ae',lineHeight: '1',fontWeight:'normal'}}>Circulating supply: {this.state.supply} Ubets <a href="https://history.bitcoiin.com/api/supply" target="_blank" style={{float: 'right', fontSize: '9px', color: '#444', marginLeft: '5px'}}>API <i className="fa fa-external-link"></i> </a></span> : null
 										}
 									</li>
 								</ul>

@@ -71,7 +71,7 @@ class Address extends Component {
 				<td>{this.address(addr, ob.from)}</td>
 				{<td><span className={(addr === ob.from)? 'label label-orange rounded' : 'label label-success rounded'}>{(addr === ob.from)? 'OUT' : 'IN'}</span></td>}
 				<td>{this.address(addr, ob.to)}</td>
-				<td>{(new BigNumber(ob.value)).div(1e18).toString(10) + " B2G"}</td>
+				<td>{(new BigNumber(ob.value)).div(1e18).toString(10) + " Ubets"}</td>
 				{/*<td><font color="gray" size="1">0<b>.</b>000042</font></td>*/}
 			</tr>
 			)): <tr><td colSpan="6">No Transactions to display</td></tr>
@@ -129,9 +129,9 @@ class Address extends Component {
 							</thead>
 							<tbody>
 								<tr>
-								<td className="EthBaTex">B2G Balance</td>
+								<td className="EthBaTex">Ubets Balance</td>
 								<td>
-									<span id="eth-bal">{this.state.balance+ ' B2G'}</span>
+									<span id="eth-bal">{this.state.balance+ ' Ubets'}</span>
 								</td>
 								</tr>
 								<tr>
